@@ -18,7 +18,7 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 Your users should be able to: 
 
-- View the optimal layout for the page depending on their device's screen size
+- View the optimal layout for the page depen myding on their device's screen size
 - See hover states for all interactive elements on the page
 
 Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
@@ -50,7 +50,7 @@ Feel free to use any workflow that you feel comfortable with. Below is a suggest
 
 As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
 
-- [GitHub Pages](https://pages.github.com/)
+- [GitHub Pages](https://k-deejah.github.io/Techathon-project-2/)
 - [Vercel](https://vercel.com/)
 - [Netlify](https://www.netlify.com/)
 
