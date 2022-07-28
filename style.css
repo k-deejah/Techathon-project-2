@@ -17,7 +17,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-color: var(--Violet);
-        width: 80vh;
+        width: 70vh;
         padding: 50% 2em;
         
     
@@ -26,7 +26,7 @@
   }
   body{
     
-      padding: 10% 1%;
+      
        background-image: url("./images/bg-desktop.svg");
 background-color: var(--Violet);
 height: 50vh;
@@ -34,8 +34,12 @@ background-repeat: no-repeat;
 background-size: cover;
 color: white;
 font-family: 'Open Sans',sans-serif;
+scroll-behavior: smooth;
+
   }
-  
+body::-webkit-scrollbar{
+    display: none;
+} 
   .container{
       display: flex;
       flex-direction: row;
@@ -60,20 +64,20 @@ font-family: 'Open Sans',sans-serif;
   .main{
       background-image: url("./images/bg-mobile.svg");
       background-color: var(--Violet);
-      background-size: cover;
+      background-size: 70%;
       background-repeat: no-repeat;
       width: 100%;
   }
   .illustrationimg{
       margin-right: 1rem;
-      width: 50%;
+      width: 70%;
   }
   .illustrationimg img{
       width: 100%;
       height: 100%;
   }
   .illustrationletter{
-                width: 50%;
+                width: 70%;
                 
                 padding-top:2em;
                 margin: 50px 10px 20px 50px;
@@ -86,7 +90,8 @@ margin-bottom: 20px;
   .illustrationletter h1{
                font-weight: 400;
                margin-bottom: 1rem;
-               padding-right: 2em;
+               padding-right: 2rem;
+               
                font-family: "poppins",sans-serif;
   }
   .illustrationletter p{
@@ -138,11 +143,9 @@ margin-bottom: 20px;
 }
 @media only screen and (max-width: 375px){
     .container{
-        flex-direction: row;
-        height: auto;
-
-    }
-}
+        flex-direction:column;
+        height: auto;}
 .illustrationimg{
     width: 100%;
+}
 }
