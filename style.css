@@ -11,7 +11,7 @@
 }
 
 
-@media only screen and (min-width:1440px) {
+@media only screen and (min-width:600px) {
     .main{
         background-image: url("./images/bg-desktop.svg");
         background-size: cover;
@@ -141,7 +141,7 @@ margin-bottom: 20px;
 
   
 }
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 600px){
     .container{
         flex-direction:column;
         height: auto;}
